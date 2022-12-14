@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.backgroundimage {
+/* .backgroundimage {
     display: flex;
     align-items: center;
 }
@@ -14,4 +14,84 @@
     width: 1500px;
     margin: 250px auto;
     margin
+} */
+.imagetop {
+    width: 450px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: 75px;
+}
+
+.imagetop img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.toppart {
+    background-color: beige;
+    width: 450px;
+    height: 550px;
+    margin-left: 750px;
+}
+
+.texthaut {
+    margin: auto;
+    width: 70%;
+    padding: 50px;
+    text-align: center;
+}
+
+.texthaut h2 {
+    font-size: 30px;
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+}
+
+.texthaut p {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.chooseplan {
+    margin: auto;
+    padding: 50px;
+    background-color: aquamarine;
+    height: 35px;
+    width: 250px;
+}
+
+.chooseplan img {
+    float: left;
+    
+}
+
+.textchooseplan {
+    /* margin-left: 30px; */
+    margin-top: auto;
+    margin-left: auto;
+    display: inline;
+    margin-right: 10px; 
+    float: right;
+    width: 70%;
+}
+
+/* .chooseplan h3 {
+    margin-left: 30px;
+    margin-top: auto;
+    display: inline;
+}
+
+.chooseplan p {
+    margin-left: 30px;
+    padding: 10px;
+    padding-left: 50px;
+} */
+
+.chooseplan button {
+    padding-right: auto;
 }
