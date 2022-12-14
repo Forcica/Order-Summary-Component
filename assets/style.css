@@ -3,18 +3,6 @@
     padding: 0;
 }
 
-/* .backgroundimage {
-    display: flex;
-    align-items: center;
-}
-
-.imagetop {
-    display: flex;
-    align-items: center;
-    width: 1500px;
-    margin: 250px auto;
-    margin
-} */
 .imagetop {
     width: 450px;
     height: auto;
@@ -32,12 +20,14 @@
     width: 450px;
     height: 550px;
     margin-left: 750px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .texthaut {
-    margin: auto;
     width: 70%;
-    padding: 50px;
+    margin: 35px 0;
     text-align: center;
 }
 
@@ -58,40 +48,19 @@
 }
 
 .chooseplan {
-    margin: auto;
-    padding: 50px;
     background-color: aquamarine;
-    height: 35px;
-    width: 250px;
-}
-
-.chooseplan img {
-    float: left;
-    
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    width: 350px;
 }
 
 .textchooseplan {
-    /* margin-left: 30px; */
-    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+.chooseplan button#test {
     margin-left: auto;
-    display: inline;
-    margin-right: 10px; 
-    float: right;
-    width: 70%;
-}
-
-/* .chooseplan h3 {
-    margin-left: 30px;
-    margin-top: auto;
-    display: inline;
-}
-
-.chooseplan p {
-    margin-left: 30px;
-    padding: 10px;
-    padding-left: 50px;
-} */
-
-.chooseplan button {
-    padding-right: auto;
 }
