@@ -83,8 +83,12 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s;
+    font-size: 16px;
     color: rgb(70, 70, 70);
 }
-.button:hover {
+.chooseplan button#test:hover {
     color: #703ace;
 }
+
+/* CLEAN AU DESSUS */
+
