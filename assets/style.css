@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+
+.backgroundimage {
+    display: block;
+    height: 52px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+}
+
+.backimagetop {
+    display: block;
+}
+
 .body {
     background-color: #D6E1FF;
 }
@@ -20,7 +33,7 @@
 }
 
 .toppart {
-    background-color: beige;
+    background-color: #F8F9FE;
     width: 450px;
     height: 550px;
     margin-left: 750px;
@@ -52,7 +65,7 @@
 }
 
 .chooseplan {
-    background-color: #F8F9FE;
+    background-color: #eff1fc;
     display: flex;
     align-items: center;
     padding: 20px 15px;
@@ -92,3 +105,51 @@
 
 /* CLEAN AU DESSUS */
 
+.buttonchoice {
+    /* background-color: #382AE1; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 45px;
+    width: 250px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.buttonchoice #paymentid {
+    width: 350px;
+    padding: 15px;
+    height: 150px;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #703ace;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 10px 5px 5px #b59ae4a8;
+}
+
+.buttonchoice #paymentid:hover {
+    background-color: #865ccf;
+}
+
+.buttonchoice #cancelorderid {
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    transition: 0.2s;
+}
+
+.buttonchoice #cancelorderid:hover {
+    color: #865ccf;
+}
